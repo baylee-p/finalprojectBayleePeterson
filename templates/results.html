@@ -19,9 +19,9 @@
                         {% else %}
                             <h5 class="card-title">{{ weather.location }}</h5>
                             {% for forecast in weather.forecasts %}
-                                <p><strong>{{ forecast.dt_txt }}</strong></p>
-                                <p class="card-text">Temperature: {{ forecast.main.temp }} °F</p>
-                                <p class="card-text">Condition: {{ forecast.weather[0].description }}</p>
+                                <p><strong>{{ forecast.time }}</strong></p>
+                                <p class="card-text">Temperature: {{ forecast.temp }} °F</p>
+                                <p class="card-text">Condition: {{ forecast.description }}</p>
                                 <hr>
                             {% endfor %}
                         {% endif %}
