@@ -5,7 +5,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Weather API Key
-API_KEY = "fc05631c503bb4f632e2c952d2743290"
+API_KEY = "your_api_key_here" # Enter your own API Key
 FORECAST_API_URL = "http://api.openweathermap.org/data/2.5/forecast"
 
 @app.route("/")
