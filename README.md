@@ -3,7 +3,7 @@
 ### Final Project
 
 
-# Project Title
+# Pick Your NFL Game
 
 A program helping users view weather in different NFL cities.
 
